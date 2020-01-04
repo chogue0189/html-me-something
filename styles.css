@@ -1,11 +1,44 @@
+.background {
+    background-image: url("http://getwallpapers.com/wallpaper/full/3/1/6/1198649-vertical-plain-wallpaper-1920x1200.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    font-family: "Arial", Times, serif;
+    text-decoration: underline;
+    color: white;
+
+}
+
 body {
-    background-color: pink;
+    background-image: url("http://getwallpapers.com/wallpaper/full/3/1/6/1198649-vertical-plain-wallpaper-1920x1200.jpg")
+    
 
 } 
 
+p {
+    color: white;
+    font-family: "Arial", Times, serif;
+    font-size: 1.0em;
+
+}
+
+ul {
+    font-family: "Arial", Times, serif;
+    font-size: 1.0em;
+    color: white;
+
+}
+
 .center {
-    margin: auto;
-    width: 50%;
-    border: 3px solid green;
-    padding: 10px;
-  }
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+
